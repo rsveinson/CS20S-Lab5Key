@@ -4,7 +4,8 @@
  *
  * Assignment: lab exercise 5 q 3
  *
- * Description: brief description of program
+ * Description: test to see if a number input from the keyboard
+ *              is even or odd
  ***********************************************************************/
  
  // import java libraries here as needed
@@ -13,7 +14,7 @@
  import java.text.DecimalFormat;
  import java.util.Scanner;
  
-public class evenOdd {  // begin class
+public class EvenOdd {  // begin class
     
     public static void main(String[] args) {  // begin main
     
@@ -79,6 +80,14 @@ public class evenOdd {  // begin class
         else{
             result = "Odd";         // set result to odd
         } // end result is odd
+        
+        /* this could also be done like this */
+        // if(n % TWO == 0){
+            // result = "Even";        // set result to even
+        // } // end n is even
+        // else{
+            // result = "Odd";         // set result to odd
+        // } // end result is odd
         
     // ************************ print output ****************************
     

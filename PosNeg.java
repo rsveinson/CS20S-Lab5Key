@@ -13,7 +13,7 @@
  import java.text.DecimalFormat;
  import java.util.Scanner;
  
-public class posNeg {  // begin class
+public class PosNeg {  // begin class
     
     public static void main(String[] args) {  // begin main
     
@@ -59,7 +59,7 @@ public class posNeg {  // begin class
         System.out.println("You entered " + n + nl);
         
         /* the following lines will get the input from a JOptionPane
-         * input window and use an exceptoin handling try catch block
+         * input window and use an exception handling try catch block
          * to make sure that the input is correct
          */
         // strin = JOptionPane.showInputDialog(bannerOut + prompt);
